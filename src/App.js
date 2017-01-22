@@ -173,7 +173,7 @@ function popup(what) {
 }
 
 function download(idx, file) {
-  var a = document.createElement('a');
+  const a = document.createElement('a');
   a.download = file.name;
   a.href = document.getElementById('image' + idx).toDataURL(file.type);
   document.body.appendChild(a);
@@ -186,7 +186,7 @@ function toCanvas(img) {
   canvas.width = img.naturalWidth;
   canvas.height = img.naturalHeight;
   canvas.setAttribute('id', 'image' + img.getAttribute('data-id'));
-  var context = canvas.getContext('2d');
+  const context = canvas.getContext('2d');
   context.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight);
   try {
     img.parentNode.replaceChild(canvas, img);
