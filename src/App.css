@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-header, .App-footer {
+  background-color: #556270;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-footer {
+  font-size: small;
+}
+
+.Uploads-select {
+  background: #C44D58;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+}
+
+.Results-table {
+  width: 100%;
+}
+
+.Results-table td {
+  text-align: center;
+  border-top: 1px solid #556270;
+  padding: 15px;
+}
+
+.Results-table th {
+  padding: 15px; 
+}
+
+.Results-table img,
+.Results-table canvas {
+  max-width: 100%;
+}
+
+.Results-more {
+  background: #57AAA4;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+}
+
+.Results-download {
+  background: #94B649;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button, [role="button"] {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
+  filter: grayscale(30%);
+}
+
+button:hover, [role="button"]:hover {
+  filter: grayscale(0%);
+}
+
+button, [role="button"] {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
