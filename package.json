@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "photocreepreader": "^2.0.1",
+    "exifreader": "^2.0.1",
     "react-scripts": "0.8.4",
     "sw-precache": "^4.2.3"
   },
